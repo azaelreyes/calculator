@@ -1,3 +1,8 @@
+body{
+    background-color: aliceblue;
+}
+
+
 .calcBtn{
     display: flex;
     width: 100px;
@@ -7,6 +12,9 @@
     align-items:center;
     justify-content: center;
     font-size: x-large;
+    border-radius: 5px;
+  
+    margin: 2px;
 }
 
 #container{
@@ -19,12 +27,12 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    background-color: aliceblue;
-    width: 408px;
+    background-color:black;
+    width: 430px;
 }
 
 .display{
-    width: 400px;
+    width: 420px;
     height: 150px;
     background-color:aliceblue;
     border: 5px solid;
@@ -34,4 +42,9 @@
     font-size:8ch;
 
 }
+
+.clicked{
+    background-color: aqua;
+}
+
 
